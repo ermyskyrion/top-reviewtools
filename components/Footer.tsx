@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Footer() {
   return (
     <footer className="border-t border-slate-200 bg-slate-50 py-8">
@@ -8,9 +10,9 @@ export default function Footer() {
         <p className="mt-2 text-center text-xs text-slate-400">
           This site may contain affiliate links. We may earn a commission on purchases made
           through links, at no extra cost to you.{' '}
-          <a href="#disclosure" className="underline hover:text-slate-600">
+          <Link href="/affiliate-disclosure" className="underline hover:text-slate-600">
             Learn more
-          </a>
+          </Link>
           .
         </p>
       </div>
