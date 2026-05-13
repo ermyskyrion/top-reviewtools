@@ -3,12 +3,13 @@ import Link from 'next/link'
 import { getAllPosts } from '@/lib/posts'
 
 export const metadata: Metadata = {
-  title: 'Top Review Tools — As Melhores Ferramentas de IA',
-  description: 'Reviews honestos das melhores ferramentas de inteligência artificial.',
+  title: 'Top Review Tools — Honest Reviews of AI Tools',
+  description: 'We test the best AI tools so you can make smarter decisions.',
 }
 
 export default function HomePage() {
   const featuredPosts = getAllPosts().slice(0, 3)
+  const isSingle = featuredPosts.length === 1
 
   return (
     <div>
@@ -16,16 +17,16 @@ export default function HomePage() {
       <section className="bg-gradient-to-br from-slate-900 to-slate-700 py-20 text-white">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <h1 className="mb-4 text-4xl font-bold tracking-tight md:text-5xl">
-            Reviews Honestos de Ferramentas de IA
+            Honest Reviews of AI Tools
           </h1>
           <p className="mb-8 text-lg text-slate-300">
-            Testamos as melhores ferramentas para que você tome decisões mais inteligentes.
+            We test the best tools so you can make smarter decisions.
           </p>
           <Link
             href="/captura"
             className="inline-block rounded-lg bg-amber-500 px-8 py-3 font-semibold text-white transition-colors hover:bg-amber-600"
           >
-            Receba Reviews Exclusivos
+            Get Exclusive Reviews
           </Link>
         </div>
       </section>
@@ -34,14 +35,14 @@ export default function HomePage() {
       <section className="py-16">
         <div className="mx-auto max-w-6xl px-4">
           <h2 className="mb-10 text-center text-2xl font-bold text-slate-900">
-            Reviews em Destaque
+            Featured Reviews
           </h2>
-          <div className="grid gap-6 md:grid-cols-3">
+          <div className={isSingle ? 'flex justify-center' : 'grid gap-6 md:grid-cols-3'}>
             {featuredPosts.map((post) => (
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
-                className="group rounded-xl border border-slate-200 p-6 transition-shadow hover:shadow-md"
+                className={`group rounded-xl border border-slate-200 p-6 transition-shadow hover:shadow-md${isSingle ? ' max-w-sm w-full' : ''}`}
               >
                 <span className="mb-2 inline-block rounded-full bg-amber-100 px-3 py-1 text-xs font-medium text-amber-700">
                   {post.category}
@@ -69,7 +70,7 @@ export default function HomePage() {
               href="/blog"
               className="rounded-lg border border-slate-300 px-6 py-3 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-50"
             >
-              Ver todos os reviews →
+              View all reviews →
             </Link>
           </div>
         </div>
