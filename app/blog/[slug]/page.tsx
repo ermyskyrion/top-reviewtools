@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { MDXRemote } from 'next-mdx-remote/rsc'
+import remarkGfm from 'remark-gfm'
 import { readFile, access } from 'fs/promises'
 import path from 'path'
 import { getAllPosts, getPostBySlug } from '@/lib/posts'
@@ -71,7 +72,7 @@ export default async function ArticlePage({ params }: Props) {
           <AffiliateDisclosure />
 
           <div className="prose prose-lg max-w-none prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-4">
-            <MDXRemote source={mdxContent} />
+            <MDXRemote source={mdxContent} options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }} />
           </div>
 
           <div className="mt-10 grid gap-6 sm:grid-cols-2">
