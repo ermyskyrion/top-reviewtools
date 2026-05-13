@@ -3,6 +3,7 @@ export interface Post {
   title: string
   excerpt: string
   content: string
+  body?: string
   date: string
   category: string
   rating: number
@@ -13,6 +14,30 @@ export interface Post {
 }
 
 const posts: Post[] = [
+  {
+    slug: 'brevo-review',
+    title: 'Brevo Review 2026: Is It Worth It for Email Marketing?',
+    excerpt: 'An honest Brevo review covering pricing, features, the free plan, and how it compares to Mailchimp. Find out if Brevo is worth it for your business in 2026.',
+    content: 'Full review available — see MDX source.',
+    date: '2026-01-15',
+    category: 'Email Marketing',
+    rating: 4,
+    pros: [
+      'Generous free plan (300 emails/day, unlimited contacts)',
+      'All-in-one: email, SMS, WhatsApp, live chat',
+      'Intuitive drag-and-drop editor',
+      'Powerful automation even on lower-tier plans',
+      'Pay-per-email pricing — not per contact',
+    ],
+    cons: [
+      'Daily sending limit on free plan can be restrictive',
+      'Brevo branding on free plan emails',
+      'Learning curve for advanced automation',
+      'Phone support only on Enterprise plan',
+    ],
+    toolName: 'Brevo',
+    affiliateUrl: 'https://www.brevo.com',
+  },
   {
     slug: 'claude-ai-review',
     title: 'Claude AI: Review Completo 2024',
@@ -38,19 +63,6 @@ const posts: Post[] = [
     cons: ['Preço em dólar', 'Limites de uso no pico', 'Contexto menor que Claude'],
     toolName: 'ChatGPT',
     affiliateUrl: 'https://chatgpt.com',
-  },
-  {
-    slug: 'notion-ai-review',
-    title: 'Notion AI: IA que Vive no Seu Workspace',
-    excerpt: 'O Notion AI integra inteligência artificial diretamente no seu espaço de trabalho. Descobrimos se é realmente útil.',
-    content: 'O Notion AI se diferencia por estar integrado diretamente no Notion, facilitando resumos, geração de conteúdo e organização de projetos sem sair da plataforma.',
-    date: '2024-09-20',
-    category: 'Produtividade',
-    rating: 4,
-    pros: ['Integrado ao Notion', 'Resumos automáticos', 'Templates com IA', 'Fácil de usar'],
-    cons: ['Dependente do Notion', 'Capacidades limitadas vs modelos dedicados', 'Custo adicional'],
-    toolName: 'Notion AI',
-    affiliateUrl: 'https://notion.so',
   },
 ]
 
