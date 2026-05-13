@@ -28,7 +28,7 @@ export default function SubscribeForm() {
     <form onSubmit={handleSubmit} className="space-y-4">
       <div>
         <label htmlFor="email" className="mb-1 block text-sm font-medium text-slate-700">
-          Seu melhor email
+          Your best email
         </label>
         <input
           id="email"
@@ -36,7 +36,7 @@ export default function SubscribeForm() {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
-          placeholder="voce@email.com"
+          placeholder="you@email.com"
           className="w-full rounded-lg border border-slate-300 px-4 py-3 text-sm focus:border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-200"
           disabled={status === 'loading' || status === 'success'}
         />
@@ -56,11 +56,11 @@ export default function SubscribeForm() {
         disabled={status === 'loading' || status === 'success'}
         className="w-full rounded-lg bg-amber-500 py-3 font-semibold text-white transition-colors hover:bg-amber-600 disabled:cursor-not-allowed disabled:opacity-50"
       >
-        {status === 'loading' ? 'Cadastrando...' : status === 'success' ? 'Cadastrado!' : 'Quero receber reviews'}
+        {status === 'loading' ? 'Subscribing...' : status === 'success' ? 'Subscribed! ✓' : 'Get exclusive reviews'}
       </button>
 
       <p className="text-center text-xs text-slate-400">
-        Sem spam. Cancele quando quiser.
+        No spam. Unsubscribe anytime.
       </p>
     </form>
   )

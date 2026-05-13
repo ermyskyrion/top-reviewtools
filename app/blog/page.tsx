@@ -3,8 +3,8 @@ import Link from 'next/link'
 import { getAllPosts } from '@/lib/posts'
 
 export const metadata: Metadata = {
-  title: 'Blog — Reviews de Ferramentas de IA',
-  description: 'Todos os reviews e comparativos de ferramentas de IA.',
+  title: 'Blog — AI Tool Reviews',
+  description: 'All reviews, comparisons and guides for AI tools.',
 }
 
 export default function BlogPage() {
@@ -13,7 +13,7 @@ export default function BlogPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-16">
       <h1 className="mb-2 text-3xl font-bold text-slate-900">Blog</h1>
-      <p className="mb-10 text-slate-600">Reviews, comparativos e guias de ferramentas de IA.</p>
+      <p className="mb-10 text-slate-600">Reviews, comparisons and guides for AI tools.</p>
 
       <div className="space-y-8">
         {posts.map((post) => (
