@@ -47,7 +47,7 @@ export default function SubscribeForm() {
           className={`text-sm ${status === 'success' ? 'text-green-600' : 'text-red-600'}`}
           role="alert"
         >
-          {message}
+          {status === 'success' ? 'Check your email! Your free guide is on its way.' : message}
         </p>
       )}
 

@@ -51,7 +51,8 @@ async function sendWelcomeEmail(
   senderName: string,
   apiKey: string,
 ): Promise<void> {
-  const guideUrl = 'https://top-reviewtools.com/lead-magnet/ai-tools-2026.html'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://top-reviewtools.com'
+  const guideUrl = `${siteUrl}/lead-magnet/ai-tools-2026.pdf`
 
   const htmlContent = `<!DOCTYPE html>
 <html>
@@ -89,7 +90,7 @@ async function sendWelcomeEmail(
       body: JSON.stringify({
         sender: { email: senderEmail, name: senderName },
         to: [{ email: toEmail }],
-        subject: 'Your Free Guide: 10 Best Free AI Tools in 2026',
+        subject: 'Your Free Guide: 10 Best Free AI Tools in 2026 🎁',
         htmlContent,
       }),
     })
