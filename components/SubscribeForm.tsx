@@ -51,6 +51,18 @@ export default function SubscribeForm() {
         </p>
       )}
 
+      {status === 'success' && (
+        <a
+          href="/lead-magnet/ai-tools-2026.html"
+          download
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full rounded-lg bg-green-600 py-3 font-semibold text-white text-center block transition-colors hover:bg-green-700"
+        >
+          ⬇ Download Your Free Guide: 10 Best Free AI Tools 2026
+        </a>
+      )}
+
       <button
         type="submit"
         disabled={status === 'loading' || status === 'success'}
