@@ -15,6 +15,38 @@ export interface Post {
 
 const posts: Post[] = [
   {
+    slug: 'synthesia-review',
+    title: 'Synthesia Review 2026: Best AI Avatar Video Tool?',
+    excerpt:
+      'A complete, honest Synthesia review for May 2026. We cover pricing, hidden costs, AI avatars, AI Dubbing, and how Synthesia compares to HeyGen and InVideo. Is it worth it?',
+    content: 'Full review available — see MDX source.',
+    date: '2026-05-15',
+    category: 'Video & Design',
+    rating: 3.5,
+    pros: [
+      '230+ AI avatars in 160+ languages and accents — largest avatar library',
+      'AI Dubbing translates entire videos with lip sync automatically',
+      'PowerPoint to video conversion in minutes',
+      'Interactive video with branching scenarios for training content',
+      'SOC 2 Type II, ISO 27001, and GDPR compliant — enterprise-ready',
+      'Used by 50,000+ teams including Fortune 100 companies',
+      'Sora 2 + VEO 3.1 integration for AI-generated B-roll clips',
+      'No camera, studio, or acting required for professional presenter videos',
+    ],
+    cons: [
+      'Most expensive per-minute in the category — $2.90/min on Starter',
+      'Starter plan is just 10 minutes/month — very restrictive for $29',
+      'No middle tier between Starter ($29) and Creator ($89)',
+      'SCORM export locked to Enterprise — critical L&D feature behind paywall',
+      'Custom Studio Avatar (digital twin) costs $1,000/year as an add-on',
+      'Content moderation can reject legitimate business content',
+      'Avatars still have uncanny valley effect for some viewers',
+      'Not cost-effective for solo creators or social media content',
+    ],
+    toolName: 'Synthesia',
+    affiliateUrl: 'https://synthesia.io',
+  },
+  {
     slug: 'adobe-firefly-review',
     title: 'Adobe Firefly Review 2026: Is It Worth It for Designers?',
     excerpt:
