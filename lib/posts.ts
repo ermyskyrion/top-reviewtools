@@ -15,6 +15,38 @@ export interface Post {
 
 const posts: Post[] = [
   {
+    slug: 'adobe-firefly-review',
+    title: 'Adobe Firefly Review 2026: Is It Worth It for Designers?',
+    excerpt:
+      'A complete, honest Adobe Firefly review for May 2026. We cover the credit system, Generative Fill, AI video generation, partner models, pricing, and how Firefly compares to Midjourney and DALL-E.',
+    content: 'Full review available — see MDX source.',
+    date: '2026-05-15',
+    category: 'Video & Design',
+    rating: 4,
+    pros: [
+      'Commercially safe — trained on licensed Adobe Stock and public domain only',
+      'IP indemnification for enterprise customers — legally defensible content',
+      'Deep Photoshop, Illustrator, and Premiere Pro integration',
+      'Generative Fill and Generative Expand are best-in-class for photo editing',
+      'Partner models (Google Veo 3, Runway, Midjourney) accessible inside one interface',
+      'Content Credentials watermark for transparency on AI-generated assets',
+      'Standard features unlimited on paid plans — no credits consumed for everyday work',
+      '4,000 credits included free with Creative Cloud All Apps subscription',
+    ],
+    cons: [
+      'Credits do not roll over — unused credits expire monthly',
+      'Video generation is credit-heavy: 100 credits per 5-second clip',
+      'Free tier is watermarked and low-resolution — evaluation only',
+      'Enterprise API requires approximately $1,000/month minimum commitment',
+      'Image artistic quality is lower than Midjourney for creative work',
+      'Creative Cloud All Apps subscribers get 4,000 free credits — standalone Pro is redundant',
+      'Five pricing tiers is confusing with overlapping use cases',
+      'Fast mode uses 2x credits — easy to burn through allocation quickly',
+    ],
+    toolName: 'Adobe Firefly',
+    affiliateUrl: 'https://firefly.adobe.com',
+  },
+  {
     slug: 'invideo-ai-review',
     title: 'InVideo AI Review 2026: Best AI Video Generator?',
     excerpt:
