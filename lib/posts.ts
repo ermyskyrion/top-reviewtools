@@ -15,6 +15,36 @@ export interface Post {
 
 const posts: Post[] = [
   {
+    slug: 'canva-ai-review',
+    title: 'Canva AI Review 2026: Is Magic Studio Worth It?',
+    excerpt:
+      'A complete, honest Canva AI review for May 2026. We cover Magic Studio, Dream Lab, pricing, and whether Canva Pro is worth it vs Adobe Express and Figma.',
+    content: 'Full review available — see MDX source.',
+    date: '2026-05-15',
+    category: 'Video & Design',
+    rating: 4.5,
+    pros: [
+      '190 million users — largest design platform with the best template library',
+      'Magic Studio replaces 3–4 separate tools (stock photos, scheduler, AI image gen)',
+      'No design skills required — template-first approach works for everyone',
+      'Pro at $15/month is exceptional value vs buying tools separately',
+      '30-day free trial on Pro — risk-free to evaluate',
+      'Magic Resize instantly adapts designs for any platform',
+      'Background Remover and Magic Eraser save hours on image editing',
+      'Available on web, iOS, Android, and desktop',
+    ],
+    cons: [
+      'AI image quality lower than dedicated tools like Midjourney or DALL-E',
+      'Teams pricing increased 300% in 2024 — controversial and expensive',
+      'AI credits do not roll over monthly — use them or lose them',
+      'Free tier AI limits are lifetime caps, not monthly resets',
+      'Some premium templates cost extra even on Pro',
+      'Not suitable for professional UI/UX design — use Figma instead',
+    ],
+    toolName: 'Canva',
+    affiliateUrl: 'https://canva.com',
+  },
+  {
     slug: 'gemini-review',
     title: 'Google Gemini Review 2026: Best AI for Google Users?',
     excerpt:
