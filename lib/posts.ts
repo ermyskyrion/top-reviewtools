@@ -81,7 +81,7 @@ const posts: Post[] = [
       'A complete, honest Google Gemini review for May 2026. We cover Gemini 3.1 Pro, pricing, Deep Research, Veo 3.1 video generation, and how Gemini compares to ChatGPT and Claude.',
     content: 'Full review available — see MDX source.',
     date: '2026-05-15',
-    category: 'AI Assistants',
+    category: 'AI Chatbots',
     rating: 4,
     pros: [
       'Best-in-class Google Workspace integration (Gmail, Docs, Sheets, Slides)',
@@ -111,7 +111,7 @@ const posts: Post[] = [
       'A complete, honest ChatGPT review for May 2026. We cover GPT-5.4, pricing plans, DALL-E image generation, Sora, Agent Mode, and how ChatGPT compares to Claude.',
     content: 'Full review available — see MDX source.',
     date: '2026-05-15',
-    category: 'AI Assistants',
+    category: 'AI Chatbots',
     rating: 4,
     pros: [
       'Largest AI user base — 700M+ weekly users means best ecosystem',
@@ -139,7 +139,7 @@ const posts: Post[] = [
       'A complete, honest Claude AI review for 2026. We cover pricing, Claude Code, MCP integrations, the 1M token context window, and how it compares to ChatGPT.',
     content: 'Full review available — see MDX source.',
     date: '2026-05-15',
-    category: 'AI Assistants',
+    category: 'AI Chatbots',
     rating: 4.5,
     pros: [
       '1 million token context window — handles entire codebases',

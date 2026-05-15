@@ -39,8 +39,11 @@ export async function subscribeEmail(email: string): Promise<SubscribeResult> {
       return { success: false, message: data.message ?? 'Email inválido.' }
     }
 
+    const errorBody = await response.text().catch(() => '')
+    console.error('[subscribe] Brevo error:', response.status, errorBody)
     return { success: false, message: 'Erro ao processar cadastro. Tente novamente.' }
-  } catch {
+  } catch (err) {
+    console.error('[subscribe] fetch error:', err)
     return { success: false, message: 'Erro de conexão. Tente novamente.' }
   }
 }

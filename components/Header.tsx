@@ -15,7 +15,7 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link href="/blog" className="transition-colors hover:text-amber-600">
+            <Link href="/categories" className="transition-colors hover:text-amber-600">
               Categories
             </Link>
           </li>
