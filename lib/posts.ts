@@ -15,6 +15,34 @@ export interface Post {
 
 const posts: Post[] = [
   {
+    slug: 'chatgpt-review',
+    title: 'ChatGPT Review 2026: Is It Still the Best AI Assistant?',
+    excerpt:
+      'A complete, honest ChatGPT review for May 2026. We cover GPT-5.4, pricing plans, DALL-E image generation, Sora, Agent Mode, and how ChatGPT compares to Claude.',
+    content: 'Full review available — see MDX source.',
+    date: '2026-05-15',
+    category: 'AI Assistants',
+    rating: 4,
+    pros: [
+      'Largest AI user base — 700M+ weekly users means best ecosystem',
+      'Native image generation with DALL-E (Images 2.0)',
+      'Sora video generation built into Plus and above',
+      'Agent Mode handles autonomous web tasks end-to-end',
+      'Deep Research produces citation-backed long-form reports',
+      'Advanced Voice Mode with natural real-time conversation',
+      'Custom GPTs marketplace with thousands of specialized tools',
+    ],
+    cons: [
+      'Free tier now shows ads (US, since February 2026)',
+      'Go plan ($8/month) is poor value — missing key features, still has ads',
+      'Context window (~320 pages on Plus) is smaller than Claude\'s 1M tokens',
+      'More prone to hallucinations than Claude on complex analytical tasks',
+      'Training data opt-out is not enabled by default',
+    ],
+    toolName: 'ChatGPT',
+    affiliateUrl: 'https://chatgpt.com',
+  },
+  {
     slug: 'claude-ai-review',
     title: 'Claude AI Review 2026: Is It Worth It?',
     excerpt:
