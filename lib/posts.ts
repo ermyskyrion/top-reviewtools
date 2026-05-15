@@ -15,6 +15,36 @@ export interface Post {
 
 const posts: Post[] = [
   {
+    slug: 'invideo-ai-review',
+    title: 'InVideo AI Review 2026: Best AI Video Generator?',
+    excerpt:
+      'A complete, honest InVideo AI review for May 2026. We cover text-to-video, voice cloning, Sora 2 + VEO 3.1 integration, pricing, and how InVideo compares to Synthesia and HeyGen.',
+    content: 'Full review available — see MDX source.',
+    date: '2026-05-15',
+    category: 'Video & Design',
+    rating: 4,
+    pros: [
+      'Text to video in minutes — script, footage, voiceover, subtitles and music automated',
+      'Sora 2 + VEO 3.1 access on Plus ($25/month) — would cost $450+/month separately',
+      'Voice cloning from a 30-second audio sample — no studio required',
+      '50+ languages supported for multilingual video production',
+      '16 million+ stock media library via iStock integration',
+      'AI avatars enable faceless video production at scale',
+      'Conversational editing — refine videos by typing instructions',
+      'Free plan available with no credit card required',
+    ],
+    cons: [
+      'Free plan watermark is prominent and not subtle',
+      'AI credit minutes do not roll over monthly — unused credits are lost',
+      'AI voiceover pronunciation can be inconsistent on names and technical terms',
+      'Less creative control than traditional editors like Premiere or DaVinci Resolve',
+      'Generated copy tends to be generic without strong, specific prompts',
+      'Not suitable for high-end cinematic productions',
+    ],
+    toolName: 'InVideo AI',
+    affiliateUrl: 'https://invideo.io',
+  },
+  {
     slug: 'canva-ai-review',
     title: 'Canva AI Review 2026: Is Magic Studio Worth It?',
     excerpt:
