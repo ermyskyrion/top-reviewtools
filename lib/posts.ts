@@ -15,6 +15,36 @@ export interface Post {
 
 const posts: Post[] = [
   {
+    slug: 'gemini-review',
+    title: 'Google Gemini Review 2026: Best AI for Google Users?',
+    excerpt:
+      'A complete, honest Google Gemini review for May 2026. We cover Gemini 3.1 Pro, pricing, Deep Research, Veo 3.1 video generation, and how Gemini compares to ChatGPT and Claude.',
+    content: 'Full review available — see MDX source.',
+    date: '2026-05-15',
+    category: 'AI Assistants',
+    rating: 4,
+    pros: [
+      'Best-in-class Google Workspace integration (Gmail, Docs, Sheets, Slides)',
+      '1M token context window on Pro plan — matches Claude',
+      'Veo 3.1 video generation included on Pro ($19.99/month)',
+      'Deep Research browses hundreds of sites autonomously',
+      'NotebookLM is exceptional for document and PDF analysis',
+      'AI Pro at $19.99/month is outstanding value vs competitors',
+      'Google AI Plus at $7.99/month includes 200GB storage',
+      'Gemini Live enables natural real-time voice conversation',
+    ],
+    cons: [
+      'Ultra plan at $249.99/month is extremely expensive',
+      'Gemini Agent is still US-only as of May 2026',
+      'Less capable than Claude Code for complex multi-file coding tasks',
+      'Best value only if you already use Google apps — ecosystem lock-in',
+      'Plus plan limited to 128K context window (vs 1M on Pro)',
+      'Deep Think reasoning mode still listed as coming soon on Ultra',
+    ],
+    toolName: 'Google Gemini',
+    affiliateUrl: 'https://gemini.google.com',
+  },
+  {
     slug: 'chatgpt-review',
     title: 'ChatGPT Review 2026: Is It Still the Best AI Assistant?',
     excerpt:
