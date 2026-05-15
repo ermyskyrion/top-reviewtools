@@ -21,7 +21,7 @@ const posts: Post[] = [
       'A complete, honest Claude AI review for 2026. We cover pricing, Claude Code, MCP integrations, the 1M token context window, and how it compares to ChatGPT.',
     content: 'Full review available — see MDX source.',
     date: '2026-05-15',
-    category: 'Productivity',
+    category: 'AI Assistants',
     rating: 4.5,
     pros: [
       '1 million token context window — handles entire codebases',
