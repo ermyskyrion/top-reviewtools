@@ -41,29 +41,19 @@ export default function Footer() {
               Categories
             </h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/blog" className="hover:text-white transition-colors">AI Writing</Link></li>
-              <li><Link href="/blog" className="hover:text-white transition-colors">Productivity</Link></li>
-              <li><Link href="/blog" className="hover:text-white transition-colors">Email Marketing</Link></li>
-              <li><Link href="/blog" className="hover:text-white transition-colors">Video & Design</Link></li>
+              <li><Link href="/categories#AI Chatbots" className="hover:text-white transition-colors">AI Chatbots</Link></li>
+              <li><Link href="/categories#AI Writing" className="hover:text-white transition-colors">AI Writing</Link></li>
+              <li><Link href="/categories#Email Marketing" className="hover:text-white transition-colors">Email Marketing</Link></li>
+              <li><Link href="/categories#Video & Design" className="hover:text-white transition-colors">Video & Design</Link></li>
             </ul>
           </div>
 
-          {/* Connect */}
+          {/* Legal */}
           <div>
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-slate-300">
-              Connect
+              Legal
             </h3>
             <ul className="space-y-2 text-sm">
-              <li>
-                <a href="https://twitter.com/topreviewtools" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
-                  𝕏 Twitter
-                </a>
-              </li>
-              <li>
-                <a href="https://linkedin.com/company/topreviewtools" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
-                  LinkedIn
-                </a>
-              </li>
               <li>
                 <Link href="/affiliate-disclosure" className="hover:text-white transition-colors">
                   Affiliate Disclosure
