@@ -11,8 +11,8 @@ const categories = [
   {
     name: 'AI Chatbots',
     icon: '🤖',
-    description: 'General-purpose AI assistants & chatbots',
-    href: '/categories',
+    description: 'General-purpose AI assistants — Claude, ChatGPT, Gemini',
+    href: '/categories#AI Chatbots',
     bg: 'bg-violet-50',
     border: 'border-violet-200',
     text: 'text-violet-700',
@@ -20,8 +20,8 @@ const categories = [
   {
     name: 'AI Writing',
     icon: '✍️',
-    description: 'Content creation & copywriting tools',
-    href: '/categories',
+    description: 'Content creation, copywriting & marketing automation',
+    href: '/categories#AI Writing',
     bg: 'bg-amber-50',
     border: 'border-amber-200',
     text: 'text-amber-700',
@@ -29,8 +29,8 @@ const categories = [
   {
     name: 'Email Marketing',
     icon: '📧',
-    description: 'Newsletter, automation & CRM platforms',
-    href: '/categories',
+    description: 'Email marketing, automation & CRM platforms',
+    href: '/categories#Email Marketing',
     bg: 'bg-sky-50',
     border: 'border-sky-200',
     text: 'text-sky-700',
@@ -38,8 +38,8 @@ const categories = [
   {
     name: 'Video & Design',
     icon: '🎨',
-    description: 'AI video generation & design tools',
-    href: '/categories',
+    description: 'AI avatar video, text-to-video & image generation',
+    href: '/categories#Video & Design',
     bg: 'bg-rose-50',
     border: 'border-rose-200',
     text: 'text-rose-700',

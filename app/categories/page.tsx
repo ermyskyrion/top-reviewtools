@@ -12,7 +12,7 @@ const categories = [
     name: 'AI Chatbots',
     slug: 'AI Chatbots',
     icon: '🤖',
-    description: 'General-purpose AI assistants & chatbots',
+    description: 'General-purpose AI assistants — Claude, ChatGPT, Gemini',
     bg: 'bg-violet-50',
     border: 'border-violet-200',
     heading: 'text-violet-800',
@@ -22,7 +22,7 @@ const categories = [
     name: 'AI Writing',
     slug: 'AI Writing',
     icon: '✍️',
-    description: 'Content creation & copywriting tools',
+    description: 'Content creation, copywriting & marketing automation',
     bg: 'bg-amber-50',
     border: 'border-amber-200',
     heading: 'text-amber-800',
@@ -32,7 +32,7 @@ const categories = [
     name: 'Email Marketing',
     slug: 'Email Marketing',
     icon: '📧',
-    description: 'Newsletter, automation & CRM platforms',
+    description: 'Email marketing, automation & CRM platforms',
     bg: 'bg-sky-50',
     border: 'border-sky-200',
     heading: 'text-sky-800',
@@ -42,7 +42,7 @@ const categories = [
     name: 'Video & Design',
     slug: 'Video & Design',
     icon: '🎨',
-    description: 'AI video generation & design tools',
+    description: 'AI avatar video, text-to-video & image generation',
     bg: 'bg-rose-50',
     border: 'border-rose-200',
     heading: 'text-rose-800',
@@ -67,7 +67,7 @@ export default function CategoriesPage() {
           const posts = allPosts.filter((p) => p.category === cat.slug)
 
           return (
-            <section key={cat.name}>
+            <section key={cat.name} id={cat.slug}>
               {/* Category header */}
               <div className={`mb-6 flex items-center gap-4 rounded-xl border p-5 ${cat.bg} ${cat.border}`}>
                 <span className="text-4xl">{cat.icon}</span>
