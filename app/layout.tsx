@@ -19,6 +19,9 @@ export const metadata: Metadata = {
     locale: 'en_US',
     siteName: process.env.NEXT_PUBLIC_SITE_NAME ?? 'Top Review Tools',
   },
+  verification: {
+    google: 'sjF-e4EVNDPnPr1QlVr24P6BHpS6nvpuwB6bmNNkRYA',
+  },
 }
 
 export default function RootLayout({
