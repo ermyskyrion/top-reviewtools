@@ -15,6 +15,38 @@ export interface Post {
 
 const posts: Post[] = [
   {
+    slug: 'jasper-ai-review',
+    title: 'Jasper AI Review 2026: Is It Worth $59/Month for Marketers?',
+    excerpt:
+      'A complete, honest Jasper AI review for May 2026. We cover Brand Voice, Jasper Agents, pricing breakdown, and whether Jasper justifies its cost vs ChatGPT and Claude for marketing teams.',
+    content: 'Full review available — see MDX source.',
+    date: '2026-05-16',
+    category: 'AI Writing',
+    rating: 3.5,
+    pros: [
+      'Brand Voice learns your exact writing style, tone, and vocabulary — output stays on-brand without constant correction',
+      '50+ purpose-built marketing templates for blogs, ads, emails, social, and landing pages',
+      'Surfer SEO integration lets you optimize content for search while writing — no tab switching',
+      'Jasper Agents automate research and content personalization workflows (Business plan)',
+      'Knowledge Assets feed Jasper product and company context — reduces generic output significantly',
+      'Browser extension brings Jasper into Gmail, Google Docs, and social platforms',
+      'AI image generation included in all plans at no extra cost',
+      '30+ languages supported — usable for multilingual marketing campaigns',
+    ],
+    cons: [
+      'No free plan — 7-day trial requires a credit card upfront',
+      'Most expensive AI writing tool per seat in the category by a wide margin',
+      'Pro plan caps at 5 seats — any team of 6+ faces a large jump to custom Business pricing',
+      'Plagiarism checker via Copyleaks is a paid add-on — not included in any plan',
+      'Output requires editing — not plug-and-play quality straight from the prompt',
+      'Pausing your subscription removes access immediately — reported as confusing by users',
+      'Business plan pricing is opaque — no public pricing, must contact sales',
+      'ChatGPT Plus ($20) and Claude Pro ($20) deliver comparable writing quality at one-third the price for solo users',
+    ],
+    toolName: 'Jasper AI',
+    affiliateUrl: 'https://jasper.ai',
+  },
+  {
     slug: 'heygen-review',
     title: 'HeyGen Review 2026: Best AI Avatar Tool for Marketers?',
     excerpt:
