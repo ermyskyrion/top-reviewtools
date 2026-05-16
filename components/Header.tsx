@@ -20,6 +20,11 @@ export default function Header() {
             </Link>
           </li>
           <li>
+            <Link href="/about" className="transition-colors hover:text-amber-600">
+              About
+            </Link>
+          </li>
+          <li>
             <Link href="/lead-magnet/ai-tools-2026.html" className="transition-colors hover:text-amber-600">
               Free Guide
             </Link>
