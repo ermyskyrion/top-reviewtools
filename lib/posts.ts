@@ -15,6 +15,38 @@ export interface Post {
 
 const posts: Post[] = [
   {
+    slug: 'copy-ai-review',
+    title: 'Copy.ai Review 2026: Best AI Tool for Marketing Automation?',
+    excerpt:
+      'A complete, honest Copy.ai review for May 2026. We cover Workflow Automation, the GTM platform shift, full pricing breakdown, and how Copy.ai compares to Jasper and Writesonic.',
+    content: 'Full review available — see MDX source.',
+    date: '2026-05-16',
+    category: 'AI Writing',
+    rating: 4,
+    pros: [
+      'Genuine permanent free plan — 2,000 words/month, Brand Voice, Infobase, no credit card required',
+      'Workflow Automation builds multi-step content pipelines that run research, drafting, and optimization end-to-end',
+      'Multi-model AI combines GPT-4o and Claude for better output than single-model competitors',
+      'GTM platform serves sales and marketing teams with CRM integrations and personalized outreach at scale',
+      '17 million+ users worldwide — largest user base in the AI writing category',
+      'Brand Voice and Infobase available even on the free plan — not locked to paid tiers',
+      'Zapier integration connects to 5,000+ apps for custom automation workflows',
+      '90+ templates cover blog posts, ads, emails, social copy, and product descriptions',
+    ],
+    cons: [
+      'Pro at $49/month ($36 annual) is more expensive than Jasper Creator ($39/month annual) for individual users',
+      'Not optimized for long-form SEO blog writing — Jasper and Writesonic produce better structured articles',
+      'Team plan at $249/month is a large jump from Pro at $49/month — no middle tier for growing teams',
+      'Workflow Automation has a real learning curve — setup time before seeing productivity gains',
+      'Free plan 2,000 word cap is hit quickly in daily production use',
+      'Social media scheduling not included — requires Buffer, Later, or similar on top',
+      'Occasional lag and quality drop reported on long-form content generation',
+      'Output requires editing — not plug-and-play for publication',
+    ],
+    toolName: 'Copy.ai',
+    affiliateUrl: 'https://copy.ai',
+  },
+  {
     slug: 'writesonic-review',
     title: 'Writesonic Review 2026: Best Affordable AI Writing Tool?',
     excerpt:
