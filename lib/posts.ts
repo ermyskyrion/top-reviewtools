@@ -15,6 +15,38 @@ export interface Post {
 
 const posts: Post[] = [
   {
+    slug: 'writesonic-review',
+    title: 'Writesonic Review 2026: Best Affordable AI Writing Tool?',
+    excerpt:
+      'A complete, honest Writesonic review for May 2026. We cover Article Writer, Chatsonic, GEO Tracking, full pricing breakdown, and how Writesonic compares to Jasper. Is it worth it?',
+    content: 'Full review available — see MDX source.',
+    date: '2026-05-16',
+    category: 'AI Writing',
+    rating: 4,
+    pros: [
+      'GEO Tracking monitors brand visibility in ChatGPT, Claude, Perplexity, and 5+ AI platforms — unique in the category',
+      'Standard plan at $39/month delivers long-form SEO articles, Google Search Console integration, and WordPress one-click publish',
+      'Chatsonic provides AI chat with real-time web search — combines ChatGPT and Perplexity in one interface',
+      '100+ templates cover ads, emails, social posts, landing pages, and long-form articles',
+      'Botsonic lets you build custom AI chatbots for your website without code',
+      'WordPress one-click publish eliminates copy-paste workflow for bloggers',
+      'Surfer SEO integration for real-time content optimization while writing',
+      'Browser extension brings Writesonic into any web-based tool',
+    ],
+    cons: [
+      'Plan structure changes frequently — verify current pricing on writesonic.com before buying',
+      'Free plan is very limited — not genuinely usable for production content',
+      'No built-in social media scheduling — requires Buffer, Later, or a third-party tool on top',
+      'SEO tools are basic — serious organic search needs Surfer SEO ($89/month) as a separate subscription',
+      'Brand voice quality is weaker than Jasper for teams needing strict enterprise-grade consistency',
+      'Output requires editing — not ready to publish as-is',
+      'Adding team members pushes you to Professional tier ($75/month) — no middle ground',
+      'Chatsonic and Botsonic feel like separate products bolted together — platform can feel disjointed',
+    ],
+    toolName: 'Writesonic',
+    affiliateUrl: 'https://writesonic.com',
+  },
+  {
     slug: 'jasper-ai-review',
     title: 'Jasper AI Review 2026: Is It Worth $59/Month for Marketers?',
     excerpt:
