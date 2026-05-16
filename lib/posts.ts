@@ -15,6 +15,37 @@ export interface Post {
 
 const posts: Post[] = [
   {
+    slug: 'heygen-review',
+    title: 'HeyGen Review 2026: Best AI Avatar Tool for Marketers?',
+    excerpt:
+      'A complete, honest HeyGen review for May 2026. We cover Avatar IV, the credit system explained clearly, full pricing breakdown, and how HeyGen compares to Synthesia. Is it worth it?',
+    content: 'Full review available — see MDX source.',
+    date: '2026-05-16',
+    category: 'Video & Design',
+    rating: 4.5,
+    pros: [
+      'Avatar IV produces the most realistic AI avatars on the market with natural body movement',
+      'Video translation with lip sync in 175+ languages — best-in-class for multilingual content',
+      'Creator plan at $29/month is exceptional value for solo creators',
+      'Interactive Avatar enables real-time conversational AI for sales and support',
+      'Voice cloning from any audio sample — no studio recording required',
+      'MCP integration works natively with Claude and OpenAI agents',
+      'Free plan requires no credit card — genuinely usable for evaluation',
+      'Annual billing saves 17–20% across all plans',
+    ],
+    cons: [
+      "Credit system is genuinely confusing — Creator's 200 credits equals only 10 minutes of Avatar IV",
+      'Pro plan ($99) has more individual credits than Business ($149) — confuses many buyers',
+      'API is completely separate from web plans — pay-as-you-go at $1/min, not included in any subscription',
+      'Credits do not roll over monthly — unused credits are lost at end of billing cycle',
+      'Custom Digital Twin avatar costs extra — not included in standard plans',
+      'Free plan is very limited at 3 videos per month with watermark and 720p only',
+      'Business plan adds seats but does NOT increase credits per person',
+    ],
+    toolName: 'HeyGen',
+    affiliateUrl: 'https://heygen.com',
+  },
+  {
     slug: 'synthesia-review',
     title: 'Synthesia Review 2026: Best AI Avatar Video Tool?',
     excerpt:
