@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   verification: {
     google: 'sjF-e4EVNDPnPr1QlVr24P6BHpS6nvpuwB6bmNNkRYA',
   },
+  other: {
+    'impact-site-verification': 'a93109f6-78b9-42b5-9df5-f0d7195635e6',
+  },
 }
 
 export default function RootLayout({
